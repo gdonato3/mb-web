@@ -1,0 +1,38 @@
+/*
+ * Custom CSS
+ */
+
+:root {
+  --bs-body-bg: var(--bs-gray-100);
+}
+
+a{
+  color: orange !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-control {
+  border-color: black;
+}
+
+.text-primary {
+  color: orange !important;
+}
+
+.btn-primary {
+  background-color: orange;
+  border-color: orange;
+}
+.btn-primary:hover {
+  background-color: rgb(194, 95, 2);
+  border-color: rgb(194, 95, 2);
+}
+
+.form-check-input:checked {
+  background-color: orange;
+  border-color: orange;
+}
